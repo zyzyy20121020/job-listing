@@ -42,7 +42,7 @@
  .navbar-default {
      background-color: #212121;
      border-color: #212121;
-     margin-bottom: 0;
+    // margin-bottom: 0;
      border-radius: 0;
  }
 
@@ -96,7 +96,7 @@
      background-repeat: no-repeat;
      background-size: cover;
      margin-bottom: 50px;
-     //margin-top: -20px;
+     margin-top: -20px;
 
 
      .box-inner {
@@ -167,6 +167,12 @@
  footer .footer-below {
      padding: 25px 0;
      background-color: #233140;
+ }
+
+ //---------Common----------
+ .col-centered {
+   float: none;
+   margin: 0 auto;
  }
 
 //  //---------other---------
